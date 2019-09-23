@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8 ">
+	<title>Customer Register</title>
+	<link rel="stylesheet" href="CSS/customer.css">
+</head>
+<body >
+	<header><h2 align="center">WELCOME CUSTOMER !</h2></header>
+	<br>
+<table class="table" align="center">
+	<caption>CUSTOMER REGISTER</caption>
+	<form action="process.php" method="POST">
+	<tr >
+		<th class="customer">Customer Name:</th>
+		<td>
+    	<input type="text" name="username" class="text" placeholder ="Enter your Name" required>
+        </td>
+	</tr>
+	<tr>
+		<th class="customer">Customer Paswd:</th>
+		<td>
+    	<input type="password" name="password" class="text" placeholder="Enter your Password" required>
+        </td>
+	</tr>
+	<tr>
+	     <th class="customer">Customer Address:</th>
+	     <td>
+    	<input type="text" name="address" class="text" placeholder ="Enter your Address" required>
+        </td>
+	</tr>
+	<tr>
+		<th class="customer">Customer Phone:</th>
+		<td>
+    	<input type="text" name="phone" class="text" placeholder ="Enter your Phone Num" required>
+        </td>
+	</tr>
+	<tr>
+		<th class="customer">Customer mail:</th>
+		<td>
+    	<input type="email" name="email" class="text" placeholder ="Enter your mail" required>
+        </td>
+	</tr>
+	<tr>
+		<td align="center" colspan="3">
+    	<input  type="Submit" value="SUBMIT" class="button" required>
+        </td>
+    </tr>
+    </form>
+</table>
+<a href="index.html" class="button1">
+	<input style="background-color: darkblue;
+			      color: yellow;
+			      padding: 5px;
+		          cursor: pointer;
+		          margin-top: 110px;
+		          margin-left: 450px;" type="Submit" value="GO BACK"  required></a>
+
+</body>
+</html>

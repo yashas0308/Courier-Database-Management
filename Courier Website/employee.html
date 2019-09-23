@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8 ">
+	<title>Employee Register</title>
+	<link rel="stylesheet" href="CSS/employee.css">
+</head>
+<body >
+	<header><h2 align="center">WELCOME EMPLOYEE !</h2></header>
+	<br>
+<table class="table" align="center">
+	<caption>EMPLOYEE REGISTER</caption>
+	<form action="process2.php" method="POST">
+	<tr >
+		<th class="employee">Employee Name:</th>
+		<td>
+    	<input type="text" name="username" class="text" placeholder ="Enter your Name" required>
+        </td>
+	</tr>
+	<tr>
+		<th class="employee">Employee Paswd:</th>
+		<td>
+    	<input type="password" name="password" class="text" placeholder="Enter your Password" required>
+        </td>
+	</tr>
+	<tr>
+		<th class="employee">Employee Education:</th>
+		<td>
+    	<select name="education" style="padding:5px; background-color: orange; font-family: Century Gothic;">
+      <option selected hidden value=""  required>Select Degree</option>
+      <option value="M.B.A">M.B.A</option>
+      <option value="M.B.A">B.B.A</option>
+      <option value="B.COM">B.COM</option>
+      <option value="B.E">B.E</option>
+      <option value="Diploma">Diploma</option>
+      <option value="2nd PUC">2nd PUC</option>
+      <option value="SSLC">SSLC</option>
+     </select>
+        </td>
+	</tr>
+	<tr>
+		<th class="employee">Employee Designation:</th>
+		<td>
+    <select name="designation" style="padding:5px; background-color: orange; font-family: Century Gothic;">
+      <option selected hidden value=""  required>Select Designation</option>
+      <option value="Director">Director</option>
+      <option value="Accountant">Accountant</option>
+      <option value="Financial Analyst">Financial Analyst</option>
+      <option value="Technical Engineer">Technical Engineer</option>
+      <option value="Courier Packaging">Courier Packaging</option>
+      <option value="Manager">Manager</option>
+      <option value="Assisstant">Assisstant</option>
+      <option value="Delivery Service">Delivery Service</option>
+      <option value="Marketing">Marketing</option>
+      <option value="Logistics">Logistics</option>
+      <option value="Non Working Staff">Non Working Staff</option>
+
+    </select>
+        </td>
+	</tr>
+	<tr>
+	     <th class="employee">Employee Address:</th>
+	     <td>
+    	<input type="text" name="address" class="text" placeholder ="Enter your Address" required>
+        </td>
+	</tr>
+	<tr>
+		<th class="employee">Employee Phone:</th>
+		<td>
+    	<input type="text" name="phone" class="text" placeholder ="Enter your Phone Num" required>
+        </td>
+	</tr>
+	<tr>
+		<th class="employee">Employee mail:</th>
+		<td>
+    	<input type="email" name="email" class="text" placeholder ="Enter your mail" required>
+        </td>
+	</tr>
+	<tr>
+		<td align="center" colspan="3">
+    	<input  type="Submit" value="SUBMIT" class="button" required>
+        </td>
+    </tr>
+    </form>
+</table>
+<a href="index.html" class="button1">
+	<input style="background-color: darkblue;
+			      color: yellow;
+			      padding: 5px;
+		          cursor: pointer;
+		          margin-top: 110px;
+		          margin-left: 450px;" type="Submit" value="GO BACK"  required></a>
+
+</body>
+</html>

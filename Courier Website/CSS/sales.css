@@ -1,0 +1,108 @@
+body{
+	font-size: 19px;
+	padding: 25px;
+	left: 50%;
+	background-color: pink;
+
+}
+
+table{
+	width: 90%;
+	margin: 30px;
+	border-collapse: collapse;
+	text-align: left;
+	margin: 50px auto;
+	background-color: maroon;
+	color: pink;
+
+}
+tr {
+	border-bottom: 1px solid #cbcbcb;
+	margin: 50px auto;
+}
+
+th,td{
+	border: none;
+	height: 30px;
+	padding: 4px;
+	margin: 50px auto;
+}
+tr:hover {
+	background: red;
+	color: yellow;
+} 
+
+form {
+	width: 45%;
+	margin: 50px auto;
+	text-align: left;
+	padding: 20px;
+	border:1px solid #bbbbbb;
+	border-radius: 5px;
+	background-color: maroon;
+	color: pink;
+}
+
+.input-group {
+	margin: 10px 0px 10px 0px;
+}
+.input-group label {
+	display: block;
+	text-align: left;
+	margin: 3px;
+}
+.input-group input {
+	height: 30px;
+	width: 93%;
+	padding: 5px 10px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid gray;
+	color: black;
+	background-color: pink;
+}
+.btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border-radius: 5px;
+	border: none;
+	color: skyblue;
+	background-color: darkblue;
+}
+
+.msg {
+	margin: 30px auto;
+	padding: 10px;
+	border-radius: 5px;
+	color: #3c763d;
+	background: #dff0d8;
+	border: 1px solid #3c763d;
+	width: 50%;
+	text-align: center;
+}
+.edit_btn {
+	text-decoration: none;
+	padding: 2px 5px;
+	background: #2E8B57;
+	color: white;
+	border-radius: 3px;
+	color: darkblue;
+	background-color: skyblue;
+}
+.edit_btn:hover{
+	background-color: blue;
+	color: powderblue;
+}
+.del_btn {
+	text-decoration: none;
+	padding: 2px 5px;
+	color: black;
+	border-radius: 3px;
+	background: yellow;
+}
+.del_btn:hover{
+	background-color: blue;
+	color: yellow;
+}
