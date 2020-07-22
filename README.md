@@ -15,9 +15,6 @@
 *  **LOGIN PAGE**
 ![](2%20Login%20page.PNG)
 
-*  **ORDER PAGE**
-![](3%20Order%20page.PNG)
-
 *  **ADMINISTRATOR PAGE**
 ![](4%20Administrator%20page.PNG)
 
