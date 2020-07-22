@@ -8,7 +8,20 @@
  Just copy download this and Paste it in your Xampp/htdocs folder and 
  Open it through the localhost Then you are Good to go! 
  
-## Screenshots: 
-*   **Home page**
+## SCREENSHOTS OF MINI PROJECT: 
+*   **HOME PAGE**
 ![](1%20Home%20page.PNG)
+
+*  **LOGIN PAGE**
+![](2%20Login%20page.PNG)
+
+*  **ORDER PAGE**
+![](3%20Order%20page.PNG)
+
+*  **ADMINISTRATOR PAGE**
+![](4%20Administrator%20page.PNG)
+
+*  **UPDATE PAGE**
+![](5%20Updating%20orders.PNG)
+
 
