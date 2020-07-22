@@ -10,5 +10,5 @@
  
 ## Screenshots: 
 *   **Home page**
-###[https://github.com/yashas0308/Courier-Database-Management/blob/master/1 Home page.PNG](#homepage)
+![](1%20Home%20page.PNG)
 
