@@ -8,7 +8,8 @@
  Just copy download this and Paste it in your Xampp/htdocs folder and 
  Open it through the localhost Then you are Good to go! 
 
-##To Run This Project Follow This Instructions:-\
+## To Run This Project Follow This Instructions:-
+\
 * 1. Create a Database in PHP My Admin called "courier".\
 * 2. Create a Table called "customers" with having 6 coloumns.\
 * 3. Create a Table called "employee" with having 8 coloumns.\
@@ -16,7 +17,7 @@
 * 5.Create All Of this Just Like Shown In The "Database pics" Folder !\
 * 6.Then Copy this "Website"  Folder placed here, To Your Xampp folder in the address is as\       
 follows "C:\xampp\htdocs\"-------(after copying) ------->   "C:\xampp\htdocs\Website".\
-* 7.Now Go to Chrome and type "http://localhost/Website/index.html"\ 
+* 7.Now Go to Chrome and type (http://localhost/Website/index.html)\ 
 to view the first page of the Website So now Finally You Are Done.\ 
 
 * I have attached the courier.sql Database file on this Repository you can directly access it and Import on your localhost server.\
