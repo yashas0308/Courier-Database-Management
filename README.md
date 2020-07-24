@@ -9,7 +9,6 @@
  Open it through the localhost Then you are Good to go! 
 
 ## To Run This Project Follow This Instructions:-
-\
 * Create a Database in PHP My Admin called "courier".
 * Create a Table called "customers" with having 6 coloumns.
 * Create a Table called "employee" with having 8 coloumns.
@@ -19,7 +18,7 @@
 follows "C:\xampp\htdocs\"-------(after copying) ------->   "C:\xampp\htdocs\Website".
 * Now Go to Chrome and type (http://localhost/Website/index.html)
 to view the first page of the Website So now Finally You Are Done.
-* I have attached the courier.sql Database file on this Repository you can directly access it and Import on your localhost server.\
+* I have attached the courier.sql Database file on this Repository you can directly access it and Import on your localhost server.
 
 ## SCREENSHOTS OF PROJECT: 
 *   **HOME PAGE**
